@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"/>
+
     <style>
       html 
       body {
@@ -31,19 +33,31 @@
         text-align: center;
       }
       .highlight {
-        background: #eaf3ff;
-        color: #002b6f;
-        padding: 20px 22px;
-        margin: 0 14px 24px;
-        border-radius: 16px;
-        font-size: 15px;
-        font-weight: 500;
-        text-align: center;
-        line-height: 1.5;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-        border: 1px solid #cfe2ff;
-        margin-bottom: 18px;
-      }
+  background:
+    linear-gradient(145deg, #0074b3, #002b6f), /* strong blue gradient */
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px,
+      transparent 12px
+    );
+  background-blend-mode: lighten;
+  color: #ffffff;
+  padding: 20px 22px;
+  margin: 0 14px 24px;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border: 1px solid #cfe2ff;
+  margin-bottom: 18px;
+}
+
+
+
 
       .hero {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -74,7 +88,7 @@
       }
       h3 {
         font-size: 22px;
-        color: #850101;
+        color: #00446b;
         margin-bottom: 8px;
       }
       p {
@@ -184,7 +198,7 @@
       .most-popular {
         font-size: 12px;
         color: #fff;
-        background: #2ecc71;
+        background: #0074b3;
         display: inline-block;
         padding: 4px 8px;
         border-radius: 4px;
@@ -269,33 +283,140 @@
           alt="Toronto Honda Logo"
         />
       </div>
-      <div class="badge">
-        <img
-          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Trust-Badge.jpg"
-          alt="50 Years Trust Badge"
-          style="width: 100%; max-width: 220px"
-        />
-      </div>
-      <div class="highlight">
-        <strong style="color: #002b6f; font-size: 16px; font-weight: 600">
-          Book your $30‑off Complete Detail </strong
-        ><br />
-        before they’re gone! Limited Slots<br />
-        <span style="font-size: 13px; color: #888">
-          For Acura clients and recent vehicle buyers (2021–2025)
-        </span>
-      </div>
+    
+  
 
-      <div class="hero">
+      <div class="hero" style="position: relative; text-align: center; margin-top: 8px;">
+
         <img
-          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Banner-Image.jpg"
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-5.jpg"
           alt="Honda Car in Dealership"
+          style="width: 100%; display: block; border-radius: 16px;"
         />
-        <h1>
-          [First Name], your car has shown up for you.<br />Now it’s your turn.
-        </h1>
-        <span class="most-popular">Best Value • Most Popular Choice</span>
-        <h2>Complete Detail – Was $279, Now $249</h2>
+      
+        
+
+ <!-- Headline (First line) -->
+<h1
+style="
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #222222;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  width: 80%;
+  padding: 0 20px;
+  line-height: 1.4;
+  text-align: center;
+"
+>
+[FirstName], it just left spotless with a
+</h1>
+
+<!-- Red Offer Box -->
+<div
+style="
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #CC0000;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 4px;
+  text-align: center;
+  white-space: nowrap;
+"
+>
+$30 off Complete Detail.
+</div>
+
+<!-- Italic Line -->
+<h1
+style="
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #222222;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  width: 80%;
+  padding: 0 20px;
+  line-height: 1.4;
+  text-align: center;
+"
+>
+You’ve still got a shot at the shine.
+</h1>
+
+<!-- Subheading -->
+<h2
+style="
+  position: absolute;
+  top: 155px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #222222;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+  padding: 0 20px;
+  line-height: 1.5;
+  text-align: center;
+"
+>
+Limited summer slots for Acura clients and purchasers from 2021 to 2025.
+</h2>
+
+      </div>
+      
+      <div style="text-align: center; margin-top: 10px;">
+        <span class="most-popular">★ Best Value • Most Popular Choice ★</span>
+
+      </div>
+      
+      <div style="text-align: center; margin-top: 30px;">
+        <div
+          style="
+            display: inline-block;
+            border: 1px solid #111;
+            border-radius: 8px;
+            padding: 16px 20px;
+            text-align: center;
+          "
+        >
+          <h2
+            style="
+              margin: 0;
+              line-height: 1.4;
+              font-size: 28px;
+              color: #111;
+              font-weight: 700;
+            "
+          >
+            Complete Detail – The Full Experience
+          </h2>
+          <div style="margin-top: 8px; font-size: 18px; color: #111;">
+            <span style="text-decoration: line-through;">Was $279</span>,
+            <span style="font-weight: 600; text-decoration: underline;">Now $249</span>
+            –
+            <span style="color: #cc0000; font-weight: 600;">Save $30</span>
+          </div>
+        </div>
+      </div>
+      
+    
+      
         <h3 style="text-align: center; margin-top: 20px">What’s Included</h3>
 
         <div class="features">
@@ -348,23 +469,26 @@
             />Tire shine treatment and wheel detailing
           </div>
         </div>
-        <a
-        href="#"
-        onclick="handleClick('complete')"
-          class="button"
-          style="
-            margin-top: 32px;
-            margin-bottom: 32px;
-            background: #850101;
-            color: #fff;
-            border-radius: 12px;
-            font-size: 15px;
-            letter-spacing: -0.3px;
-          "
-        >
-          Reserve My Spot – $30 Off
-        </a>
-      </div>
+       
+        <div style="text-align: center;">
+          <a
+            href="#"
+            onclick="handleClick('complete')"
+            class="button"
+            style="
+              margin-top: 32px;
+              margin-bottom: 32px;
+              background: #00446b;
+              color: #fff;
+              border-radius: 12px;
+              font-size: 15px;
+              letter-spacing: -0.3px;
+            "
+          >
+            Reserve My Spot – $30 Off
+          </a>
+        </div>
+        
 
       <h3 style="text-align: center; margin-top: 40px">See the difference</h3>
       <div
@@ -384,7 +508,7 @@
               alt="Before"
               style="width: 100%; border-radius: 12px"
             />
-            <p style="margin-top: 8px; font-size: 13px; color: #666">Before</p>
+        
           </div>
           <div style="flex: 1; text-align: center">
             <img
@@ -392,7 +516,7 @@
               alt="After"
               style="width: 100%; border-radius: 12px"
             />
-            <p style="margin-top: 8px; font-size: 13px; color: #666">After</p>
+            
           </div>
         </div>
         <p
@@ -407,7 +531,7 @@
           Every inch restored to showroom standard.
         </p>
         
-<div style="padding: 10px 14px; background:#fff3f3; color:#850101; border-radius:12px; font-size:13px; text-align:center; margin: 10px 20px 0;">
+<div style="padding: 10px 14px; background:#a5deff; color:#00446b; border-radius:12px; font-size:13px; text-align:center; margin: 10px 20px 0;">
   Only 7 spots left this week. We recommend booking now to avoid wait times.
 </div>
       </div>
@@ -424,11 +548,28 @@
       ★★★★★
     </div>
     <p style="font-size:14px; color:#333; line-height:1.6; margin:0 0 12px;">
-      Brought in my Civic for a scheduled service and detail. The team walked me through the maintenance, didn’t upsell anything, and delivered the car spotless inside and out. Staff was patient, clear, and professional. Feels good knowing they treat your car like their own.
+      Brought in my Accord for a scheduled service and detail. The team walked me through the maintenance, didn’t try to sell anything extra, and delivered the car spotless inside and out. Staff was patient, clear, and professional. They really treat your car like their own.
     </p>
     <p style="font-size:13px; font-weight:600; color:#555; margin:0;">
       – Kevin L., 2022 Honda Accord Hybrid
     </p>
+    <!-- Trust Badge moved here -->
+    <div style="
+    margin-top: 20px;
+    display: inline-block;
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 20px;  /* Adjust if corners don't match perfectly */
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  ">
+    <img
+      src="https://litpluscreatives.com/wp-content/uploads/2025/06/Trust-Badge.jpg"
+      alt="50 Years Trust Badge"
+      style="max-width: 180px; width: 100%; display: block;"
+    />
+  </div>
+  
   </div>
 </div>
 <!-- END Testimonial Section -->
@@ -508,8 +649,8 @@
   class="button"
   style="
     background: #fff;
-    color: #850101;
-    border: 1px solid #850101;
+    color: #00446b;
+    border: 1px solid #00446b;
     border-radius: 12px;
   "
 >
@@ -615,7 +756,7 @@
   href="#"
   onclick="handleClick('whatsapp')"
   class="button"
-  style="background: #850101; color: #fff"
+  style="background: #00446b; color: #fff"
 >
   Text or WhatsApp Now
 </a>
@@ -709,4 +850,3 @@
     
   </body>
 </html>
-
