@@ -1,36 +1,712 @@
-<tr>
-  <td style="text-align:center; background:#fff3e0; padding:12px;">
-    <strong>Summer Exclusive:</strong> Limited slots – Book your $30‑off Complete Detail!
-  </td>
-</tr>
-<!-- Hero -->
-<tr><td style="padding:20px; text-align:center;">
-  <h1 style="font-size:24px; color:#d00000;">Complete Detail – <span style="font-size:20px; color:#008000;">Now $249</span></h1>
-  <p style="font-size:16px; color:#555;">Exterior + interior shampoo + engine bay + tire shine</p>
-  <a href="BOOKING_LINK" style="background:rgba(208,0,0,0.85); color:#fff; padding:12px 24px; border-radius:6px; text-decoration:none;">Book Now</a>
-</td></tr>
-<!-- Upsell -->
-<tr><td style="padding:20px; border-top:1px solid #eee;">
-  <h2 style="font-size:20px; color:#333;">Ultimate Protect – $479</h2>
-  <ul style="color:#555; line-height:1.6;">
-    <li>Everything in Complete Detail</li>
-    <li>+ 3‑month Premium Wax & Nano‑coating</li>
-  </ul>
-  <a href="BOOKING_LINK" style="color:#d00000; text-decoration:underline; font-size:16px;">Select Ultimate</a>
-</td></tr>
-<!-- Add‑ons -->
-<tr><td style="padding:20px; background:#f9f9f9;">
-  <h3 style="color:#333;">Customize Your Experience</h3>
-  <p style="color:#777; font-size:14px;">Choose any:</p>
-  <ul style="color:#777; font-size:14px;">
-    <li>Salt Stain Removal – $149</li>
-    <li>Pet Hair Removal – $139</li>
-    <li>Odor Elimination – $119</li>
-    <!-- ... -->
-  </ul>
-</td></tr>
-<!-- Footer CTA -->
-<tr><td style="text-align:center; padding:20px;">
-  <a href="BOOKING_LINK" style="background:rgba(208,0,0,0.85); color:#fff; padding:12px 24px; border-radius:6px; text-decoration:none;">Secure Your Slot</a>
-  <p style="font-size:12px; color:#999; margin-top:10px;">Booking link takes you to your local Honda Toronto.</p>
-</td></tr>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TEMP: Prevent iOS dark mode preview -->
+<meta name="color-scheme" content="light only"> <!-- REMOVE LATER -->
+
+    <title>Toronto Honda – Summer Detailing Offer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html 
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", sans-serif;
+        background-color: #ffffff;
+        color: #000000;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #fff;
+      }
+      .badge {
+        padding: 10px;
+        text-align: center;
+      }
+      .highlight {
+        background: #eaf3ff;
+        color: #002b6f;
+        padding: 20px 22px;
+        margin: 0 14px 24px;
+        border-radius: 16px;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        border: 1px solid #cfe2ff;
+        margin-bottom: 18px;
+      }
+
+      .hero {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        padding: 20px;
+        background: #ffffff;
+        border-radius: 16px; /* 👈 Add this line */
+        margin: 32px 0 20px; /* 👈 Give space like a floating card */
+      }
+      .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      h1 {
+        font-size: 22px;
+        color: #111;
+        font-weight: 600;
+        margin-bottom: 12px;
+        line-height: 1.4;
+        letter-spacing: -0.2px;
+      }
+
+      h2 {
+        font-size: 20px;
+        color: #111;
+        font-weight: 600;
+      }
+      h3 {
+        font-size: 22px;
+        color: #850101;
+        margin-bottom: 8px;
+      }
+      p {
+        font-size: 14px;
+        color: #333;
+        line-height: 1.6;
+      }
+      a.button {
+        background: #850101; /* iOS Blue */
+        border-radius: 12px; /* more rounded */
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* soft shadow */
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: 6px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 14px 0;
+        font-weight: 600;
+      }
+      .addons,
+      .upsell {
+        text-align: center;
+        padding: 20px;
+        border-top: 1px solid #eee;
+        background: #fafafa;
+      }
+      .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 20px 10px;
+      }
+      .icons img {
+        width: 100px;
+        height: auto;
+      }
+      .before-after {
+        text-align: center;
+        padding: 20px;
+      }
+      .before-after img {
+        width: 48%;
+        display: inline-block;
+      }
+      .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        text-align: left;
+        padding: 0 20px;
+      }
+      .features div {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+        border-radius: 6px;
+        padding: 10px 12px;
+        background: #f1f1f1;
+      }
+      .features img {
+        width: 90px;
+        height: 90px;
+      }
+      .specialty {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        padding: 12px 20px;
+      }
+      .specialty div {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        background: #f9f9f9;
+        border-radius: 14px;
+        padding: 16px 10px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #111;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        line-height: 1.4;
+      }
+
+      .specialty div img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 3px;
+        filter: brightness(0) saturate(100%);
+      }
+
+      .specialty div:last-child {
+        grid-column: 1 / -1;
+        justify-content: center;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 12px;
+        color: #999;
+      }
+      .most-popular {
+        font-size: 12px;
+        color: #fff;
+        background: #2ecc71;
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 4px;
+        margin-top: 6px;
+        font-weight: 600;
+      }
+      .logo {
+        padding: 14px;
+        text-align: center;
+      }
+      .logo img {
+        max-width: 500px;
+        height: auto;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #121212;
+          color: #ffffff;
+        }
+        .container {
+          background-color: #1e1e1e;
+        }
+        .highlight,
+        .addons,
+        .upsell,
+        .footer,
+        .features div,
+        .specialty div {
+          background-color: #2a2a2a;
+          color: #ffffff;
+        }
+        h1,
+        h2,
+        h3,
+        p {
+          color: #eeeeee;
+        }
+        a.button {
+          background: #ff4c4c;
+          color: #fff;
+        }
+      }
+      .features img {
+        filter: brightness(0) saturate(100%);
+      }
+      .specialty img {
+        filter: brightness(0) saturate(100%);
+      }
+    </style>
+    <!-- TEMP: Prevent iOS dark mode preview -->
+<meta name="color-scheme" content="light only"> <!-- REMOVE LATER -->
+
+<style>
+  /* BEGIN: TEMP FIX for Safari Dark Mode Override – REMOVE LATER */
+  html, body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html, body {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+    }
+  }
+  /* END: TEMP FIX – REMOVE */
+</style>
+
+  </head>
+  <body>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEklEQVR42mP8/5+hHgAHggJ/lEG3uQAAAABJRU5ErkJggg==" style="display: none;" />
+    <body style="background-color: #ffffff; color: #000000; -webkit-text-size-adjust: none;"> 
+      
+<!-- TEMP: Safari Dark Mode Fix – REMOVE -->
+
+    <div class="container">
+      <div class="logo">
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Toronto-Honda-logo.png"
+          alt="Toronto Honda Logo"
+        />
+      </div>
+      <div class="badge">
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Trust-Badge.jpg"
+          alt="50 Years Trust Badge"
+          style="width: 100%; max-width: 220px"
+        />
+      </div>
+      <div class="highlight">
+        <strong style="color: #002b6f; font-size: 16px; font-weight: 600">
+          Book your $30‑off Complete Detail </strong
+        ><br />
+        before they’re gone! Limited Slots<br />
+        <span style="font-size: 13px; color: #888">
+          For Acura clients and recent vehicle buyers (2021–2025)
+        </span>
+      </div>
+
+      <div class="hero">
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Banner-Image.jpg"
+          alt="Honda Car in Dealership"
+        />
+        <h1>
+          [First Name], your car has shown up for you.<br />Now it’s your turn.
+        </h1>
+        <span class="most-popular">Best Value • Most Popular Choice</span>
+        <h2>Complete Detail – Was $279, Now $249</h2>
+        <h3 style="text-align: center; margin-top: 20px">What’s Included</h3>
+
+        <div class="features">
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Exterior-Wash-Dry-Icon.svg"
+              alt="icon"
+            />Exterior wash and dry
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Windows-Cleaned-Icon.svg"
+              alt="icon"
+            />Windows cleaned
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Interior-Vacuum-Icon.svg"
+              alt="icon"
+            />Interior vacuum
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Carpet-Mat-Trunk-Shampooing.svg"
+              alt="icon"
+            />Deep carpet, mat & trunk shampooing
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Air-Vents-Cleaned-Freshened-Icon.svg"
+              alt="icon"
+            />Air vents cleaned and freshened
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Dashboard-Surfaces-Protected-Icon.svg"
+              alt="icon"
+            />Dashboard & interior surfaces detailed and protected
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Engine-Bay-Cleaned-Degreased-Icon.svg"
+              alt="icon"
+            />Engine bay deep clean and degrease
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Tire-Shine-Wheel-Detailing.svg"
+              alt="icon"
+            />Tire shine treatment and wheel detailing
+          </div>
+        </div>
+        <a
+        href="#"
+        onclick="handleClick('complete')"
+          class="button"
+          style="
+            margin-top: 32px;
+            margin-bottom: 32px;
+            background: #850101;
+            color: #fff;
+            border-radius: 12px;
+            font-size: 15px;
+            letter-spacing: -0.3px;
+          "
+        >
+          Reserve My Spot – $30 Off
+        </a>
+      </div>
+
+      <h3 style="text-align: center; margin-top: 40px">See the difference</h3>
+      <div
+        class="before-after"
+        style="
+          background: #f9f9f9;
+          border-radius: 18px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+          padding: 24px;
+          margin: 28px 14px;
+        "
+      >
+        <div style="display: flex; justify-content: space-between; gap: 8px">
+          <div style="flex: 1; text-align: center">
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Before-Image.jpg"
+              alt="Before"
+              style="width: 100%; border-radius: 12px"
+            />
+            <p style="margin-top: 8px; font-size: 13px; color: #666">Before</p>
+          </div>
+          <div style="flex: 1; text-align: center">
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/After-Image.jpg"
+              alt="After"
+              style="width: 100%; border-radius: 12px"
+            />
+            <p style="margin-top: 8px; font-size: 13px; color: #666">After</p>
+          </div>
+        </div>
+        <p
+          style="
+            font-weight: 500;
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+            color: #111;
+          "
+        >
+          Every inch restored to showroom standard.
+        </p>
+        
+<div style="padding: 10px 14px; background:#fff3f3; color:#850101; border-radius:12px; font-size:13px; text-align:center; margin: 10px 20px 0;">
+  Only 7 spots left this week. We recommend booking now to avoid wait times.
+</div>
+      </div>
+    </div>
+ <!-- START Testimonial Section -->
+
+
+<div style="padding: 24px 14px; text-align:center; background:#ffffff;">
+  <h3 style="font-size:20px; color:#111; font-weight:600; margin-bottom:16px;">
+    What Our Clients Say
+  </h3>
+  <div style="max-width:520px; margin:0 auto; background:#f9f9f9; border-radius:10px; box-shadow:0 1px 4px rgba(0,0,0,0.05); padding:20px;">
+    <div style="font-size:16px; color:#f5a623; margin-bottom:10px;">
+      ★★★★★
+    </div>
+    <p style="font-size:14px; color:#333; line-height:1.6; margin:0 0 12px;">
+      Brought in my Civic for a scheduled service and detail. The team walked me through the maintenance, didn’t upsell anything, and delivered the car spotless inside and out. Staff was patient, clear, and professional. Feels good knowing they treat your car like their own.
+    </p>
+    <p style="font-size:13px; font-weight:600; color:#555; margin:0;">
+      – Kevin L., 2022 Honda Accord Hybrid
+    </p>
+  </div>
+</div>
+<!-- END Testimonial Section -->
+
+
+    
+    <div class="container">
+      <div
+        class="upsell"
+        style="
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+          background: #ffffff;
+          border-radius: 16px;
+          margin: 32px 14px;
+          padding: 24px;
+        "
+      >
+        <h3 style="text-align: center; margin-top: 40px">Why Upgrade?</h3>
+        <h2
+          style="
+            text-align: center;
+            font-size: 20px;
+            margin-top: 0;
+            font-weight: 600;
+            color: #020202;
+          "
+        >
+          Ultimate Protect – The VIP Treatment
+        </h2>
+        <p
+          style="
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 6px;
+          "
+        >
+          Designed for those who want the absolute best.
+        </p>
+
+        <div class="features">
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Complete-Detail-Check-Icon-2.svg"
+              alt="icon"
+            />
+            Everything in Complete Detail
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Premium-Wax-Protection-Icon.svg"
+              alt="icon"
+            />
+            Premium exterior wax protection (3-month shine guarantee)
+          </div>
+          <div
+            style="
+              grid-column: 1 / -1;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              text-align: center;
+            "
+          >
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Windshield-Nano-Coating.svg"
+              alt="icon"
+            />
+            Advanced nano-coating windshield treatment
+          </div>
+        </div>
+        <div style="height: 24px"></div>
+        <a
+  href="#"
+  onclick="handleClick('ultimate')"
+  class="button"
+  style="
+    background: #fff;
+    color: #850101;
+    border: 1px solid #850101;
+    border-radius: 12px;
+  "
+>
+  Book Ultimate Protect – $479
+</a>
+
+      </div>
+
+      <div
+        class="addons"
+        style="
+          margin: 32px 14px;
+          padding: 24px;
+          border-radius: 16px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+          background: #ffffff;
+        "
+      >
+     
+      <h3>Specialty Services</h3>
+        <div class="specialty">
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Windshield-Nano-Coating-Icon.svg"
+              alt="icon"
+            />
+            Windshield Nano Coating<br />
+            <span style="font-weight: 600; font-size: 14px">$99</span>
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/All-Glass-Nano-Coating-Icon.svg"
+              alt="icon"
+            />
+            All Glass Nano Coating<br />
+            <span style="font-weight: 600; font-size: 14px">$179</span>
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Salt-Stain-Removal-Icon.svg"
+              alt="icon"
+            />
+            Salt Stain Removal<br />
+            <span style="font-weight: 600; font-size: 14px">$149</span>
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Pet-Hair-Removal-Icon.svg"
+              alt="icon"
+            />
+            Pet Hair Removal<br />
+            <span style="font-weight: 600; font-size: 14px">$139</span>
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Headlight-Restoration-Icon.svg"
+              alt="icon"
+            />
+            Headlight Restoration<br />
+            <span style="font-weight: 600; font-size: 14px">$159</span>
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Odor-Elimination-Icon.svg"
+              alt="icon"
+            />
+            Odor Elimination<br />
+            <span style="font-weight: 600; font-size: 14px">$119</span>
+          </div>
+          <div>
+            <img
+              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Liquid-Rust-Proofing-Icon.svg"
+              alt="icon"
+            />
+            Liquid Rust Proofing<br />
+            <span style="font-weight: 600; font-size: 14px">Contact Us</span>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="text-align: center; margin-top: 44px">Need Help?</h3>
+
+      <div class="hero" style="margin-top: 16px">
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Customer-Service-Image.jpg"
+          alt="Smiling Customer Service Team"
+        />
+        <p
+          style="
+            font-weight: 500;
+            font-size: 15px;
+            color: #111;
+            margin: 12px 0 6px;
+          "
+        >
+          [First Name], elite care for those who don’t settle.
+        </p>
+        <p style="font-size: 14px; color: #555; margin-bottom: 20px">
+          Our team replies in under 4 minutes via WhatsApp or SMS. Message us
+          today to lock in your discount.
+        </p>
+        <a
+  href="#"
+  onclick="handleClick('whatsapp')"
+  class="button"
+  style="background: #850101; color: #fff"
+>
+  Text or WhatsApp Now
+</a>
+
+      </div>
+
+
+
+      <div style="background: #f5f5f7; padding: 24px 0;">
+      <div
+        class="footer"
+        style="
+          margin: 0 auto;
+          padding: 24px 20px;
+          font-size: 12px;
+          color: #6e6e73;
+          text-align: center;
+          line-height: 1.6;
+        "
+      >
+        <p style="margin: 2px 0">
+          Booking link takes you to your local Honda Toronto.
+        </p>
+        <p style="margin: 4px 0">Honda Toronto © 2025</p>
+        <p style="margin: 10px 0 0">
+          2300 Danforth Ave, Toronto, ON M4C 1K6, Canada
+        </p>
+    
+        
+        <p style="margin: 8px 0 0">
+          <a
+            href="https://maps.app.goo.gl/RDDvmSz8XKKYhScHA"
+            style="color: #007aff; text-decoration: none"
+            >Get Directions on Google Maps</a
+          >
+        </p>
+        <hr style="border: none; border-top: 1px solid #e2e2e2; margin: 20px auto; width: 100%;" />
+
+
+        <p style="margin: 12px 0 4px">
+          <a
+            href="https://www.torontohonda.com/privacy-policy"
+            style="color: #007aff; text-decoration: none"
+            >Privacy Policy</a
+          >
+          &nbsp;|&nbsp;
+          <a
+            href="https://www.torontohonda.com/terms-conditions/"
+            style="color: #007aff; text-decoration: none"
+            >Terms of Service</a
+          >
+          &nbsp;|&nbsp;
+          <a href="#" style="color: #007aff; text-decoration: none"
+            >Unsubscribe From Promotional Emails</a
+          >
+          &nbsp;|&nbsp;
+          <a href="#" style="color: #007aff; text-decoration: none"
+            >Manage Email Preferences</a
+          >
+        </p>
+
+        <p style="margin: 16px 0 0">
+          <a
+            href="https://litpluscreatives.com/"
+            style="color: #007aff; text-decoration: none"
+            >Powered by Litplus Creatives</a
+          >
+        </p>
+      </div>
+    </div>
+    <script>
+      function handleClick(type) {
+        const useWhatsApp = true; // 👉 change to false for SMS
+        const number = "11234567890"; // 👉 your number in international format
+    
+        const messages = {
+          complete: "Hi, I'm interested in the $30-off Complete Detail package. Please share available slots.",
+          ultimate: "Hi, I’d like to book the Ultimate Protect package. Can you assist with timing and availability?",
+          help: "Hi, I have a question regarding your detailing services. Can you help?"
+        };
+    
+        const message = encodeURIComponent(messages[type]);
+    
+        if (useWhatsApp) {
+          window.location.href = `https://wa.me/${number}?text=${message}`;
+        } else {
+          window.location.href = `sms:${number}?&body=${message}`;
+        }
+      }
+    </script>
+    
+  </body>
+</html>
+
