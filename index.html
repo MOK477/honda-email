@@ -286,42 +286,61 @@
        
         
 
- <!-- Headline (First line) -->
-<!-- HERO SECTION – responsive overlay pattern -->
-<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin:0;">
-  <tr>
-    <td style="position:relative; text-align:center; padding:0;">
-      <!-- hero image -->
-      <img src="https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-5.jpg"
-           alt="Honda at dealership"
-           width="600" style="width:100%; max-width:600px; height:auto; display:block; border-radius:16px;" />
+<!-- ========= HERO SECTION (keeps your original 28 / 22 / 14 px metrics, only scales down on small screens) ========= -->
 
-      <!-- overlay copy -->
-      <div style="position:absolute; top:9%; left:50%; transform:translateX(-50%);
-                  width:84%; max-width:520px; color:#222; font-family:sans-serif;
-                  text-align:center; line-height:1.3;">
-        <span class="hero-h1" style="font-size:28px; font-weight:600; display:block;">
-          [FirstName], it just left spotless with
-        </span>
-
-        <span style="display:inline-block; margin:8px 0;
-                     background:#cc0000; color:#fff; font-size:28px;
-                     font-weight:700; padding:4px 12px; border-radius:4px;">
-          $30 off Complete Detail
-        </span>
-
-        <span class="hero-h2" style="font-size:22px; font-style:italic; display:block;">
-          You’ve still got a shot at the shine.
-        </span>
-
-        <span class="hero-sub" style="font-size:14px; font-weight:400; display:block;
-                                      margin-top:6px;">
-          Limited summer slots for Acura clients (2021–2025)
-        </span>
-      </div>
-    </td>
-  </tr>
-</table>
+<style>
+  /* ↓↓↓ scales copy when viewport ≤ 480 px; full-size clients keep the 28/22/14 numbers you gave me */
+  @media only screen and (max-width:480px){
+    .hero-h1  { font-size:20px !important; }
+    .hero-red { font-size:20px !important; }
+    .hero-h2  { font-size:16px !important; }
+    .hero-sub { font-size:12px !important; }
+    .hero-box { top:6%  !important; }          /* nudge higher on very tall phones */
+  }
+  </style>
+  
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin:0;">
+    <tr>
+      <td style="position:relative; text-align:center; padding:0;">
+        <!-- hero image -->
+        <img src="https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-5.jpg"
+             alt="Honda at dealership"
+             width="600"
+             style="width:100%; max-width:600px; height:auto; display:block; border-radius:16px;" />
+  
+        <!-- overlay copy -->
+        <div class="hero-box"
+             style="position:absolute; top:9%; left:50%; transform:translateX(-50%);
+                    width:84%; max-width:520px; color:#222; font-family:sans-serif;
+                    text-align:center; line-height:1.3;">
+          <span class="hero-h1"
+                style="font-size:28px; font-weight:600; display:block;">
+            [FirstName], it just left spotless with
+          </span>
+  
+          <span class="hero-red"
+                style="display:inline-block; margin:8px 0;
+                       background:#cc0000; color:#fff; font-size:28px;
+                       font-weight:700; padding:4px 12px; border-radius:4px;">
+            $30 off Complete Detail
+          </span>
+  
+          <span class="hero-h2"
+                style="font-size:22px; font-style:italic; display:block;">
+            You’ve still got a shot at the shine.
+          </span>
+  
+          <span class="hero-sub"
+                style="font-size:14px; font-weight:400; display:block; margin-top:6px;">
+            Limited summer slots for Acura clients and purchasers from 2021 to 2025
+          </span>
+        </div>
+      </td>
+    </tr>
+  </table>
+  
+  <!-- =========== / HERO SECTION =========== -->
+  
 
 
       </div>
@@ -416,24 +435,21 @@
           </div>
         </div>
        
-        <div style="text-align: center;">
-          <a
-            href="#"
-            onclick="handleClick('complete')"
-            class="button"
-            style="
-              margin-top: 32px;
-              margin-bottom: 32px;
-              background: #00446b;
-              color: #fff;
-              border-radius: 12px;
-              font-size: 15px;
-              letter-spacing: -0.3px;
-            "
-          >
-            Reserve My Spot – $30 Off
-          </a>
-        </div>
+        <!-- COMPLETE DETAIL -->
+<div style="text-align:center; margin:32px 0; font-weight: 500;">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/11234567890?text=Hi%2C%20I%27m%20interested%20in%20the%20%2430-off%20Complete%20Detail%20package.%20Please%20share%20available%20slots."
+     target="_blank"
+     style="display:inline-block;background:#00446b;color:#fff;
+            font-size:15px;padding:12px 24px;border-radius:12px;
+            text-decoration:none;margin:0;">Reserve My Spot – $30 Off</a>
+
+  <!-- SMS -->
+  <a href="sms:11234567890&body=Hi%2C%20I%27m%20interested%20in%20the%20%2430-off%20Complete%20Detail%20package."
+     style="display:block;font-size:13px;color:#0074b3;
+            text-decoration:none;margin:8px 0 0;">…or tap to send an SMS instead</a>
+</div>
+
         
 
       <h3 style="text-align: center; margin-top: 40px">See the difference</h3>
@@ -588,20 +604,20 @@
             Advanced nano-coating windshield treatment
           </div>
         </div>
-        <div style="height: 24px"></div>
-        <a
-  href="#"
-  onclick="handleClick('ultimate')"
-  class="button"
-  style="
-    background: #fff;
-    color: #00446b;
-    border: 1px solid #00446b;
-    border-radius: 12px;
-  "
->
-  Book Ultimate Protect – $479
-</a>
+                <!-- COMPLETE DETAIL -->
+<div style="text-align:center; margin:32px 0; font-weight: 500;">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/11234567890?text=Hi%2C%20I%27d%20like%20to%20book%20the%20Ultimate%20Protect%20package.%20Can%20you%20assist%20with%20timing%20and%20availability%3F"
+     target="_blank"
+     style="display:inline-block;background:#00446b;color:#fff;
+            font-size:15px;padding:12px 24px;border-radius:12px;
+            text-decoration:none;margin:0;">Book Ultimate Protect - $479</a>
+
+  <!-- SMS -->
+  <a href="sms:11234567890&body=Hi%2C%20I%27d%20like%20to%20book%20the%20Ultimate%20Protect%20package."
+     style="display:block;font-size:13px;color:#0074b3;
+            text-decoration:none;margin:8px 0 0;">…or tap to send an SMS instead</a>
+</div>
 
       </div>
 
@@ -698,15 +714,20 @@
           Our team replies in under 4 minutes via WhatsApp or SMS. Message us
           today to lock in your discount.
         </p>
-        <a
-  href="#"
-  onclick="handleClick('whatsapp')"
-  class="button"
-  style="background: #00446b; color: #fff"
->
-  Text or WhatsApp Now
-</a>
+                       <!-- COMPLETE DETAIL -->
+<div style="text-align:center; margin:32px 0; font-weight: 500;">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/11234567890?text=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services."
+     target="_blank"
+     style="display:inline-block;background:#00446b;color:#fff;
+            font-size:15px;padding:12px 24px;border-radius:12px;
+            text-decoration:none;margin:0;">WhatsApp Now</a>
 
+  <!-- SMS -->
+  <a href="sms:11234567890&body=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services."
+     style="display:block;font-size:13px;color:#0074b3;
+            text-decoration:none;margin:8px 0 0;">…or tap to send an SMS instead</a>
+</div>
       </div>
 
 
@@ -800,26 +821,6 @@
         </p>
       </div>
     </div>
-    <script>
-      function handleClick(type) {
-        const useWhatsApp = true; // 👉 change to false for SMS
-        const number = "11234567890"; // 👉 your number in international format
-    
-        const messages = {
-          complete: "Hi, I'm interested in the $30-off Complete Detail package. Please share available slots.",
-          ultimate: "Hi, I’d like to book the Ultimate Protect package. Can you assist with timing and availability?",
-          help: "Hi, I have a question regarding your detailing services. Can you help?"
-        };
-    
-        const message = encodeURIComponent(messages[type]);
-    
-        if (useWhatsApp) {
-          window.location.href = `https://wa.me/${number}?text=${message}`;
-        } else {
-          window.location.href = `sms:${number}?&body=${message}`;
-        }
-      }
-    </script>
-    
+   
   </body>
 </html>
