@@ -217,7 +217,13 @@
         filter: brightness(0) saturate(100%);
       }
     </style>
-
+  <style>
+  @media only screen and (max-width:600px){
+    .ba-row            {flex-direction:column !important;} /* row → column   */
+    .ba-row img        {width:100% !important; margin-bottom:12px;} /* full width, breathing room */
+    .ba-row img:last-child{margin-bottom:0;}               /* no extra gap   */
+  }
+  </style>
   </head>
   <body>
     <div class="container">
@@ -233,8 +239,8 @@
 <!-- ========= HERO SECTION (keeps your original 28 / 22 / 14 px metrics, only scales down on small screens) ========= -->
 
 <style>
-  /* ↓↓↓ scales copy when viewport ≤ 480 px; full-size clients keep the 28/22/14 numbers you gave me */
-  @media only screen and (max-width:480px){
+  /* ↓↓↓ scales copy when viewport ≤ 600 px; full-size clients keep the 28/22/14 numbers you gave me */
+  @media only screen and (max-width:600px){
     .hero-h1  { font-size:20px !important; }
     .hero-red { font-size:20px !important; }
     .hero-h2  { font-size:16px !important; }
@@ -410,7 +416,7 @@
           margin: 28px 14px;
         "
       >
-        <div style="display: flex; justify-content: space-between; gap: 8px">
+      <div class="ba-row" style="display:flex;justify-content:space-between;gap:8px">>
           <div style="flex: 1; text-align: center">
             <img
               src="https://litpluscreatives.com/wp-content/uploads/2025/06/Before-Image.jpg"
@@ -771,4 +777,3 @@
    
   </body>
 </html>
-
