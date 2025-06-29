@@ -8,11 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
-      html 
-      body {
+      html body {
         margin: 0;
         padding: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -30,31 +32,28 @@
         text-align: center;
       }
       .highlight {
-  background:
-    linear-gradient(145deg, #0074b3, #002b6f), /* strong blue gradient */
-    repeating-linear-gradient(
-      45deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.1) 1px,
-      transparent 1px,
-      transparent 12px
-    );
-  background-blend-mode: lighten;
-  color: #ffffff;
-  padding: 20px 22px;
-  margin: 0 14px 24px;
-  border-radius: 16px;
-  font-size: 15px;
-  font-weight: 500;
-  text-align: center;
-  line-height: 1.5;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-  border: 1px solid #cfe2ff;
-  margin-bottom: 18px;
-}
-
-
-
+        background: linear-gradient(145deg, #0074b3, #002b6f),
+          /* strong blue gradient */
+            repeating-linear-gradient(
+              45deg,
+              rgba(255, 255, 255, 0.1),
+              rgba(255, 255, 255, 0.1) 1px,
+              transparent 1px,
+              transparent 12px
+            );
+        background-blend-mode: lighten;
+        color: #ffffff;
+        padding: 20px 22px;
+        margin: 0 14px 24px;
+        border-radius: 16px;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        border: 1px solid #cfe2ff;
+        margin-bottom: 18px;
+      }
 
       .hero {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -136,7 +135,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 8px;
         text-align: left;
-        padding: 0 20px;
+        padding: 0 12px;
       }
       .features div {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -157,13 +156,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 12px;
-        padding: 12px 20px;
+        padding: 12px 10px;
       }
       .specialty div {
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         background: #f9f9f9;
         border-radius: 14px;
-        padding: 16px 10px;
+        padding: 12px 10px;
         font-size: 13px;
         font-weight: 500;
         color: #111;
@@ -193,14 +192,14 @@
         color: #999;
       }
       .most-popular {
-        font-size: 16px;
+        font-size: 12px;
         color: #fff;
         background: #0074b3;
         display: inline-block;
         padding: 4px 8px;
         border-radius: 4px;
-        margin-top: 6px;
-        font-weight: 600;
+        margin-top: 0px;
+        font-weight: 500;
       }
       .logo {
         padding: 14px;
@@ -217,280 +216,418 @@
         filter: brightness(0) saturate(100%);
       }
     </style>
-  <style>
-  @media only screen and (max-width:600px){
-    .ba-row            {flex-direction:column !important;} /* row → column   */
-    .ba-row img        {width:100% !important; margin-bottom:12px;} /* full width, breathing room */
-    .ba-row img:last-child{margin-bottom:0;}               /* no extra gap   */
-  }
-  </style>
+    <style>
+      @media only screen and (max-width: 600px) {
+        .ba-row {
+          flex-direction: column !important;
+        } /* row → column   */
+        .ba-row img {
+          width: 100% !important;
+          margin-bottom: 12px;
+        } /* full width, breathing room */
+        .ba-row img:last-child {
+          margin-bottom: 0;
+        } /* no extra gap   */
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container" style="padding: 0 20px">
       <div class="logo">
         <img
           src="https://litpluscreatives.com/wp-content/uploads/2025/06/Toronto-Honda-logo.png"
           alt="Toronto Honda Logo"
+          style="max-width: 100%; height: auto"
         />
       </div>
-       
-        
+    
 
-<!-- ========= HERO SECTION (keeps your original 28 / 22 / 14 px metrics, only scales down on small screens) ========= -->
+    <!-- ========= HERO SECTION ========= -->
+    <style>
+      @media only screen and (max-width: 600px)
+       {
+        .hero-h1 {
+          font-size: 20px !important;
+        }
+        .hero-red {
+          font-size: 20px !important;
+        }
+        .hero-h2 {
+          font-size: 16px !important;
+        }
+        .hero-sub {
+          font-size: 12px !important;
+        }
+        .hero-box {
+          padding: 12px !important;
+        }
+      }
+    </style>
 
-<style>
-  /* ↓↓↓ scales copy when viewport ≤ 600 px; full-size clients keep the 28/22/14 numbers you gave me */
-  @media only screen and (max-width:600px){
-    .hero-h1  { font-size:20px !important; }
-    .hero-red { font-size:20px !important; }
-    .hero-h2  { font-size:16px !important; }
-    .hero-sub { font-size:12px !important; }
-    .hero-box { top:6%  !important; }          /* nudge higher on very tall phones */
-  }
-  </style>
-  
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin:0;">
-    <tr>
-      <td style="position:relative; text-align:center; padding:0;">
-        <!-- hero image -->
-        <img src="https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-5.jpg"
-             alt="Honda at dealership"
-             width="600"
-             style="width:100%; max-width:600px; height:auto; display:block; border-radius:16px;" />
-  
-        <!-- overlay copy -->
-        <div class="hero-box"
-             style="position:absolute; top:9%; left:50%; transform:translateX(-50%);
-                    width:84%; max-width:520px; color:#222; font-family:sans-serif;
-                    text-align:center; line-height:1.3;">
-          <span class="hero-h1"
-                style="font-size:28px; font-weight:600; display:block;">
-            [FirstName], it just left spotless with
-          </span>
-  
-          <span class="hero-red"
-                style="display:inline-block; margin:8px 0;
-                       background:#cc0000; color:#fff; font-size:28px;
-                       font-weight:700; padding:4px 12px; border-radius:4px;">
-            $30 off Complete Detail
-          </span>
-  
-          <span class="hero-h2"
-                style="font-size:22px; font-style:italic; display:block;">
-            You’ve still got a shot at the shine.
-          </span>
-  
-          <span class="hero-sub"
-                style="font-size:14px; font-weight:400; display:block; margin-top:6px;">
-            Limited summer slots for Acura clients and purchasers from 2021 to 2025
-          </span>
-        </div>
-      </td>
-    </tr>
-  </table>
-  
-  <!-- =========== / HERO SECTION =========== -->
-  
+    <div style="padding: 0 20px">
+      <div style="position: relative; border-radius: 16px; overflow: hidden">
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-5.jpg"
+          alt="Honda at dealership"
+          width="600"
+          style="width: 100%; height: auto; display: block"
+        />
 
-
-      </div>
-      
-      <div style="text-align: center; margin-top: 10px;">
-        <span class="most-popular">★ Best Value • Most Popular Choice ★</span>
-
-      </div>
-      
-      <div style="text-align: center; margin: 30px 14px 0;">
+        <!-- Overlay -->
         <div
+          class="hero-box"
           style="
-            display: inline-block;
-            border: 1px solid #111;
-            border-radius: 8px;
-            padding: 16px 20px;
-            text-align: center;
-            max-width:92%; 
-            margin:0 auto; 
-
+            position: absolute;
+            top: 12px;
+            left: 20px;
+            right: 20px;
+            box-sizing: border-box;
+            color: #222;
+            font-family: sans-serif;
+            line-height: 1.4;
           "
         >
-          <h2
+          <span
+            class="hero-h1"
             style="
-              margin: 0;
-              line-height: 1.4;
               font-size: 28px;
-              color: #111;
-              font-weight: 700;
+              font-weight: 600;
+              display: block;
+              margin-bottom: 4px;
             "
           >
-            Complete Detail – The Full Experience
-          </h2>
-          <div style="margin-top: 8px; font-size: 18px; color: #111;">
-            <span style="text-decoration: line-through;">Was $279</span>,
-            <span style="font-weight: 600; text-decoration: underline;">Now $249</span>
-            –
-            <span style="color: #cc0000; font-weight: 600;">Save $30</span>
+            [FirstName], tired of stepping into a dusty, dull cabin?
+          </span>
+
+          <span
+            class="hero-red"
+            style="
+              display: inline-block;
+              background: #cc0000;
+              color: #fff;
+              font-size: 28px;
+              font-weight: 700;
+              padding: 4px 12px;
+              border-radius: 4px;
+            "
+          >
+            Complete Detail is now $30 off
+          </span>
+
+          <span
+            class="hero-h2"
+            style="
+              font-size: 22px;
+              font-weight: 600;
+              font-style: italic;
+              display: block;
+              margin-top: 4px;
+            "
+          >
+            Inside and out, fully reset.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========= / HERO SECTION ========= -->
+
+    <!-- Aligned Content Wrapper -->
+    <div style="text-align: left; padding: 0 20px">
+      <!-- Headline -->
+      <h2
+        style="
+          margin: 15px 0 4px;
+          line-height: 1.4;
+          font-size: 20px;
+          color: #111;
+          font-weight: 700;
+        "
+      >
+        Complete Detail – The Full Experience
+      </h2>
+
+      <!-- Best Value Badge -->
+      <div style="margin-top: 10px">
+        <span class="most-popular">★ Best Value • Most Popular Choice ★</span>
+      </div>
+
+      <!-- Price Section -->
+      <div style="margin-top: 8px">
+        <div
+          style="
+            font-size: 16px;
+            color: #111;
+            font-weight: 500;
+            line-height: 1.3;
+          "
+        >
+          <!-- Was Price and Save Box -->
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              flex-wrap: wrap;
+            "
+          >
+            <div style="text-decoration: line-through">Was $279</div>
+
+            <div
+              style="
+                background-color: #cc0000;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                padding: 4px 8px;
+                border-radius: 4px;
+                font-weight: 500;
+                font-size: 12px;
+              "
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/16/ffffff/discount--v1.png"
+                alt="Discount Icon"
+                style="margin-right: 4px"
+              />
+              Save $30
+            </div>
+          </div>
+
+          <!-- Now Price -->
+          <div
+            style="
+              font-size: 30px;
+              font-weight: 700;
+              color: #111;
+              margin-top: 4px;
+            "
+          >
+            Now $249
           </div>
         </div>
       </div>
-      
-    
-      
-        <h3 style="text-align: center; margin-top: 20px">What’s Included</h3>
 
-        <div class="features">
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Exterior-Wash-Dry-Icon.svg"
-              alt="icon"
-            />Exterior wash and dry
-          </div>
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Windows-Cleaned-Icon.svg"
-              alt="icon"
-            />Windows cleaned
-          </div>
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Interior-Vacuum-Icon.svg"
-              alt="icon"
-            />Interior vacuum
-          </div>
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Carpet-Mat-Trunk-Shampooing.svg"
-              alt="icon"
-            />Deep carpet, mat & trunk shampooing
-          </div>
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Air-Vents-Cleaned-Freshened-Icon.svg"
-              alt="icon"
-            />Air vents cleaned and freshened
-          </div>
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Dashboard-Surfaces-Protected-Icon.svg"
-              alt="icon"
-            />Dashboard & interior surfaces detailed and protected
-          </div>
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Engine-Bay-Cleaned-Degreased-Icon.svg"
-              alt="icon"
-            />Engine bay deep clean and degrease
-          </div>
-          <div>
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Tire-Shine-Wheel-Detailing.svg"
-              alt="icon"
-            />Tire shine treatment and wheel detailing
-          </div>
-        </div>
-       
-        <!-- COMPLETE DETAIL -->
-<div style="text-align:center; margin:32px 0; font-weight: 500;">
-  <!-- WhatsApp -->
-  <a href="https://wa.me/11234567890?text=Hi%2C%20I%27m%20interested%20in%20the%20%2430-off%20Complete%20Detail%20package.%20Please%20share%20available%20slots."
-     target="_blank"
-     style="display:inline-block;background:#00446b;color:#fff;
-            font-size:15px;padding:12px 24px;border-radius:12px;
-            text-decoration:none;margin:0;">Reserve My Spot – $30 Off</a>
+      <!-- FIXED: Properly aligned What's Included -->
+      <h3 style="text-align: left; margin: 20px 0 10px 0">What’s Included</h3>
+    </div>
 
-  <!-- SMS -->
-  <a href="sms:11234567890&body=Hi%2C%20I%27m%20interested%20in%20the%20%2430-off%20Complete%20Detail%20package."
-     style="display:block;font-size:13px;color:#0074b3;
-            text-decoration:none;margin:8px 0 0;">…or tap to send an SMS instead</a>
-</div>
+    <div class="features">
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Exterior-Wash-Dry-Icon.svg"
+          alt="icon"
+        />Exterior wash and dry
+      </div>
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Windows-Cleaned-Icon.svg"
+          alt="icon"
+        />Windows cleaned
+      </div>
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Interior-Vacuum-Icon.svg"
+          alt="icon"
+        />Interior vacuum
+      </div>
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Carpet-Mat-Trunk-Shampooing.svg"
+          alt="icon"
+        />Deep carpet, mat & trunk shampooing
+      </div>
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Air-Vents-Cleaned-Freshened-Icon.svg"
+          alt="icon"
+        />Air vents cleaned and freshened
+      </div>
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Dashboard-Surfaces-Protected-Icon.svg"
+          alt="icon"
+        />Dashboard & interior surfaces detailed and protected
+      </div>
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Engine-Bay-Cleaned-Degreased-Icon.svg"
+          alt="icon"
+        />Engine bay deep clean and degrease
+      </div>
+      <div>
+        <img
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Tire-Shine-Wheel-Detailing.svg"
+          alt="icon"
+        />Tire shine treatment and wheel detailing
+      </div>
+    </div>
 
-        
-
-      <h3 style="text-align: center; margin-top: 40px">See the difference</h3>
-      <div
-        class="before-after"
+    <!-- COMPLETE DETAIL -->
+    <div
+      style="
+        text-align: left;
+        padding: 0 20px;
+        margin: 32px 0;
+        font-weight: 500;
+      "
+    >
+      <a
+        href="sms:11234567890&body=Hi%2C%20I%27m%20interested%20in%20the%20%2430-off%20Complete%20Detail%20package."
+        target="_blank"
         style="
-          background: #f9f9f9;
-          border-radius: 18px;
-          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
-          padding: 24px;
-          margin: 28px 14px;
+          display: inline-block;
+          background: #00446b;
+          color: #fff;
+          font-size: 15px;
+          padding: 12px 24px;
+          border-radius: 999px;
+          text-decoration: none;
         "
-      
-      <div class="ba-row" style="display:flex;justify-content:space-between;gap:8px">>
-          <div style="flex: 1; text-align: center">
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/Before-Image.jpg"
-              alt="Before"
-              style="width: 100%; border-radius: 12px"
-            />
-        
-          </div>
-          <div style="flex: 1; text-align: center">
-            <img
-              src="https://litpluscreatives.com/wp-content/uploads/2025/06/After-Image.jpg"
-              alt="After"
-              style="width: 100%; border-radius: 12px"
-            />
-            
-          </div>
+      >
+        Reserve My Spot – $30 Off
+      </a>
+      <!-- Call option -->
+      <div style="margin-top: 10px; font-size: 13px">
+        <strong
+          >Or call us at
+          <a
+            href="tel:11234567890"
+            style="color: #0074b3; text-decoration: none"
+            >(112) 345‑67890</a
+          ></strong
+        >
+      </div>
+    </div>
+
+    <!-- Section Heading aligned with image -->
+    <h3 style="margin: 40px 0 0 20px">See The Difference</h3>
+
+    <!-- Before/After box -->
+    <div
+      class="before-after"
+      style="
+        background: #f9f9f9;
+        border-radius: 18px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+        padding: 12px;
+        margin: 14px 10px;
+        text-align: left;
+      "
+    >
+      <div
+        class="ba-row"
+        style="display: flex; justify-content: space-between; gap: 8px"
+      >
+        <div style="flex: 1">
+          <img
+            src="https://litpluscreatives.com/wp-content/uploads/2025/06/Before-Image.jpg"
+            alt="Before"
+            style="width: 100%; border-radius: 12px"
+          />
+        </div>
+        <div style="flex: 1">
+          <img
+            src="https://litpluscreatives.com/wp-content/uploads/2025/06/After-Image.jpg"
+            alt="After"
+            style="width: 100%; border-radius: 12px"
+          />
+        </div>
+      </div>
+
+      <!-- Caption aligned left -->
+      <p
+        style="
+          font-weight: 500;
+          margin-top: 18px;
+          font-size: 20px;
+          color: #111;
+          text-align: left;
+        "
+      >
+        Every inch restored to showroom standard.
+      </p>
+      <!-- Blue alert box -->
+      <div
+        style="
+          padding: 8px 12px;
+          background: #a5deff;
+          color: #00446b;
+          border-radius: 12px;
+          font-size: 13px;
+          text-align: left;
+          box-sizing: border-box;
+          max-width: fit-content;
+        "
+      >
+        We recommend booking now to avoid wait times.
+      </div>
+    </div>
+
+    <!-- START Testimonial Section -->
+
+    <div style="padding: 24px 14px; text-align: left; background: #ffffff">
+      <h3
+        style="
+          font-size: 20px;
+          color: #111;
+          font-weight: 600;
+          margin: 0px 0 16px 12px;
+        "
+      >
+        What Our Clients Say
+      </h3>
+      <div
+        style="
+          max-width: 520px;
+          margin: 0 auto;
+          background: #f9f9f9;
+          border-radius: 10px;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+          padding: 20px;
+        "
+      >
+        <div style="font-size: 16px; color: #f5a623; margin-bottom: 10px">
+          ★★★★★
         </div>
         <p
           style="
-            font-weight: 500;
-            margin-top: 20px;
-            font-size: 20px;
-            text-align: center;
-            color: #111;
+            font-size: 14px;
+            color: #333;
+            line-height: 1.6;
+            margin: 0 0 12px;
           "
         >
-          Every inch restored to showroom standard.
+          Brought in my Accord for a scheduled service and detail. The team
+          walked me through the maintenance, didn’t try to sell anything extra,
+          and delivered the car spotless inside and out. Staff was patient,
+          clear, and professional. They really treat your car like their own.
         </p>
-        
-<div style="padding: 10px 14px; background:#a5deff; color:#00446b; border-radius:12px; font-size:13px; text-align:center; margin: 10px 20px 0;">
-  Only 7 spots left this week. We recommend booking now to avoid wait times.
-</div>
+        <p style="font-size: 13px; font-weight: 600; color: #555; margin: 0">
+          – Kevin L., 2022 Honda Accord Hybrid
+        </p>
+        <!-- Trust Badge moved here -->
+        <div
+          style="
+            margin-top: 20px;
+            display: inline-block;
+            background: #ffffff;
+            padding: 4px;
+            border-radius: 20px; /* Adjust if corners don't match perfectly */
+            overflow: hidden;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+          "
+        >
+          <img
+            src="https://litpluscreatives.com/wp-content/uploads/2025/06/Trust-Badge.jpg"
+            alt="50 Years Trust Badge"
+            style="max-width: 180px; width: 100%; display: block"
+          />
+        </div>
       </div>
     </div>
- <!-- START Testimonial Section -->
+    <!-- END Testimonial Section -->
 
-
-<div style="padding: 24px 14px; text-align:center; background:#ffffff;">
-  <h3 style="font-size:20px; color:#111; font-weight:600; margin-bottom:16px;">
-    What Our Clients Say
-  </h3>
-  <div style="max-width:520px; margin:0 auto; background:#f9f9f9; border-radius:10px; box-shadow:0 1px 4px rgba(0,0,0,0.05); padding:20px;">
-    <div style="font-size:16px; color:#f5a623; margin-bottom:10px;">
-      ★★★★★
-    </div>
-    <p style="font-size:14px; color:#333; line-height:1.6; margin:0 0 12px;">
-      Brought in my Accord for a scheduled service and detail. The team walked me through the maintenance, didn’t try to sell anything extra, and delivered the car spotless inside and out. Staff was patient, clear, and professional. They really treat your car like their own.
-    </p>
-    <p style="font-size:13px; font-weight:600; color:#555; margin:0;">
-      – Kevin L., 2022 Honda Accord Hybrid
-    </p>
-    <!-- Trust Badge moved here -->
-    <div style="
-    margin-top: 20px;
-    display: inline-block;
-    background: #ffffff;
-    padding: 4px;
-    border-radius: 20px;  /* Adjust if corners don't match perfectly */
-    overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-  ">
-    <img
-      src="https://litpluscreatives.com/wp-content/uploads/2025/06/Trust-Badge.jpg"
-      alt="50 Years Trust Badge"
-      style="max-width: 180px; width: 100%; display: block;"
-    />
-  </div>
-  
-  </div>
-</div>
-<!-- END Testimonial Section -->
-
-
-    
     <div class="container">
       <div
         class="upsell"
@@ -498,16 +635,16 @@
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
           background: #ffffff;
           border-radius: 16px;
-          margin: 32px 14px;
-          padding: 24px;
+          margin: 20px 12px;
+          padding: 12px;
         "
       >
-        <h3 style="text-align: center; margin-top: 25px">Why Upgrade?</h3>
+        <h3 style="text-align: left; margin: 20px 0 10px 12px">Why Upgrade?</h3>
         <h2
           style="
-            text-align: center;
+            text-align: left;
+            margin: 0 0 10px 12px;
             font-size: 20px;
-            margin-top: 0;
             font-weight: 600;
             color: #020202;
           "
@@ -516,10 +653,10 @@
         </h2>
         <p
           style="
-            text-align: center;
+            text-align: left;
+            margin: 0 0 20px 12px;
             font-size: 14px;
             color: #666;
-            margin-top: 2px;
           "
         >
           Designed for those who want the absolute best.
@@ -557,35 +694,51 @@
             Advanced nano-coating windshield treatment
           </div>
         </div>
-                <!-- COMPLETE DETAIL -->
-<div style="text-align:center; margin:32px 0; font-weight: 500;">
-  <!-- WhatsApp -->
-  <a href="https://wa.me/11234567890?text=Hi%2C%20I%27d%20like%20to%20book%20the%20Ultimate%20Protect%20package.%20Can%20you%20assist%20with%20timing%20and%20availability%3F"
-     target="_blank"
-     style="display:inline-block;background:#00446b;color:#fff;
-            font-size:15px;padding:12px 24px;border-radius:12px;
-            text-decoration:none;margin:0;">Book Ultimate Protect - $479</a>
-
-  <!-- SMS -->
-  <a href="sms:11234567890&body=Hi%2C%20I%27d%20like%20to%20book%20the%20Ultimate%20Protect%20package."
-     style="display:block;font-size:13px;color:#0074b3;
-            text-decoration:none;margin:8px 0 0;">…or tap to send an SMS instead</a>
-</div>
-
+        <!-- COMPLETE DETAIL -->
+        <div style="text-align: left; margin: 20px 12px; font-weight: 500">
+          <!-- WhatsApp -->
+          <a
+            href="sms:11234567890&body=Hi%2C%20I%27d%20like%20to%20book%20the%20Ultimate%20Protect%20package."
+            target="_blank"
+            style="
+              display: inline-block;
+              background: #00446b;
+              color: #fff;
+              font-size: 15px;
+              padding: 12px 24px;
+              border-radius: 999px;
+              text-decoration: none;
+              margin: 0;
+            "
+            >Book Ultimate Protect - $479</a
+          >
+          <!-- Call option -->
+          <div style="margin-top: 10px; font-size: 13px">
+            <strong
+              >Or call us at
+              <a
+                href="tel:11234567890"
+                style="color: #0074b3; text-decoration: none"
+                >(112) 345‑67890</a
+              ></strong
+            >
+          </div>
+        </div>
       </div>
 
       <div
         class="addons"
         style="
           margin: 32px 14px;
-          padding: 24px;
+          padding: 12px;
           border-radius: 16px;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
           background: #ffffff;
         "
       >
-     
-      <h3>Specialty Services</h3>
+        <h3 style="text-align: left; margin: 20px 0 10px 12px">
+          Specialty Services
+        </h3>
         <div class="specialty">
           <div>
             <img
@@ -644,15 +797,48 @@
             <span style="font-weight: 600; font-size: 14px">Contact Us</span>
           </div>
         </div>
+        <div style="text-align: left; margin: 20px 12px; font-weight: 500">
+          <!-- WhatsApp -->
+          <a
+            href="sms:11234567890&body=Hi%2C%20I%27d%20like%20to%20book%20a%20Specialty%20Service."
+            target="_blank"
+            style="
+              display: inline-block;
+              background: #00446b;
+              color: #fff;
+              font-size: 15px;
+              padding: 12px 24px;
+              border-radius: 999px;
+              text-decoration: none;
+              margin: 0;
+            "
+            >Book Specialty Service</a
+          >
+          <!-- Call option -->
+          <div style="margin-top: 10px; font-size: 13px">
+            <strong
+              >Or call us at
+              <a
+                href="tel:11234567890"
+                style="color: #0074b3; text-decoration: none"
+                >(112) 345‑67890</a
+              ></strong
+            >
+          </div>
+        </div>
+        <!-- ← this div ends the last inner container -->
       </div>
+      <!-- ← move THIS one up here! ends .addons box -->
 
-      <h3 style="text-align: center; margin-top: 44px">Need Help?</h3>
+      <h3 style="text-align: left; margin: 10px 0 10px 30px">Need Help?</h3>
 
-      <div class="hero" style="margin-top: 16px">
+      <div style="margin: 0 30px">
         <img
-          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Customer-Service-Image.jpg"
+          src="https://litpluscreatives.com/wp-content/uploads/2025/06/ChatGPT-Image-Jun-29-2025-06_06_09-AM.png"
           alt="Smiling Customer Service Team"
+          style="width: 100%; border-radius: 12px; display: "
         />
+
         <p
           style="
             font-weight: 500;
@@ -664,28 +850,48 @@
           [First Name], elite care for those who don’t settle.
         </p>
         <p style="font-size: 14px; color: #555; margin-bottom: 20px">
-          Our team replies in under 4 minutes via WhatsApp or SMS. Message us
-          today to lock in your discount.
+          Our team replies in under 4 minutes via SMS. Message us today to lock
+          in your discount.
         </p>
-                       <!-- COMPLETE DETAIL -->
-<div style="text-align:center; margin:32px 0; font-weight: 500;">
-  <!-- WhatsApp -->
-  <a href="https://wa.me/11234567890?text=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services."
-     target="_blank"
-     style="display:inline-block;background:#00446b;color:#fff;
-            font-size:15px;padding:12px 24px;border-radius:12px;
-            text-decoration:none;margin:0;">WhatsApp Now</a>
 
-  <!-- SMS -->
-  <a href="sms:11234567890&body=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services."
-     style="display:block;font-size:13px;color:#0074b3;
-            text-decoration:none;margin:8px 0 0;">…or tap to send an SMS instead</a>
-</div>
+        <!-- Contact Button Block -->
+        <div style="text-align: left; margin: 20px 0px; font-weight: 500">
+          <!-- WhatsApp -->
+          <a
+            href="sms:11234567890&body=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services"
+            target="_blank"
+            style="
+              display: inline-block;
+              background: #00446b;
+              color: #fff;
+              font-size: 15px;
+              padding: 12px 24px;
+              border-radius: 999px;
+              text-decoration: none;
+              margin: 0;
+            "
+          >
+            Contact Support
+          </a>
+
+          <!-- Call option -->
+          <div style="margin-top: 10px; font-size: 13px">
+            <strong
+              >Or call us at
+              <a
+                href="tel:11234567890"
+                style="color: #0074b3; text-decoration: none"
+                >(112) 345‑67890</a
+              ></strong
+            >
+          </div>
+        </div>
       </div>
+    </div>
+    </div>
+    </div>
 
-
-
-      <div style="background: #f5f5f7; padding: 24px 0;">
+    <div style="background: #f5f5f7; padding: 24px 0">
       <div
         class="footer"
         style="
@@ -704,8 +910,7 @@
         <p style="margin: 10px 0 0">
           2300 Danforth Ave, Toronto, ON M4C 1K6, Canada
         </p>
-    
-        
+
         <p style="margin: 8px 0 0">
           <a
             href="https://maps.app.goo.gl/RDDvmSz8XKKYhScHA"
@@ -714,34 +919,47 @@
           >
         </p>
 
-<!-- Social links row -->
-<div style="text-align:center; margin:18px 0;">
-  <!-- Facebook -->
-  <a href="https://www.facebook.com/torontohonda"
-     style="display:inline-block; margin:0 6px;"
-     target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/0074b3/facebook--v1.png"
-         alt="Facebook"
-         width="24"
-         height="24"
-         style="display:block; border:0;"/>
-  </a>
+        <!-- Social links row -->
+        <div style="text-align: center; margin: 18px 0">
+          <!-- Facebook -->
+          <a
+            href="https://www.facebook.com/torontohonda"
+            style="display: inline-block; margin: 0 6px"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/50/0074b3/facebook--v1.png"
+              alt="Facebook"
+              width="24"
+              height="24"
+              style="display: block; border: 0"
+            />
+          </a>
 
-  <!-- YouTube -->
-  <a href="https://www.youtube.com/user/TORONTOHONDA"
-     style="display:inline-block; margin:0 6px;"
-     target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/cc0000/youtube-play.png"
-         alt="YouTube"
-         width="24"
-         height="24"
-         style="display:block; border:0;"/>
-  </a>
-</div>
+          <!-- YouTube -->
+          <a
+            href="https://www.youtube.com/user/TORONTOHONDA"
+            style="display: inline-block; margin: 0 6px"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/50/cc0000/youtube-play.png"
+              alt="YouTube"
+              width="24"
+              height="24"
+              style="display: block; border: 0"
+            />
+          </a>
+        </div>
 
-
-        <hr style="border: none; border-top: 1px solid #e2e2e2; margin: 20px auto; width: 100%;" />
-
+        <hr
+          style="
+            border: none;
+            border-top: 1px solid #e2e2e2;
+            margin: 20px auto;
+            width: 100%;
+          "
+        />
 
         <p style="margin: 12px 0 4px">
           <a
@@ -755,25 +973,8 @@
             style="color: #007aff; text-decoration: none"
             >Terms of Service</a
           >
-          &nbsp;|&nbsp;
-          <a href="#" style="color: #007aff; text-decoration: none"
-            >Unsubscribe From Promotional Emails</a
-          >
-          &nbsp;|&nbsp;
-          <a href="#" style="color: #007aff; text-decoration: none"
-            >Manage Email Preferences</a
-          >
-        </p>
-
-        <p style="margin: 16px 0 0">
-          <a
-            href="https://litpluscreatives.com/"
-            style="color: #007aff; text-decoration: none"
-            >Powered by Litplus Creatives</a
-          >
         </p>
       </div>
     </div>
-   
   </body>
 </html>
