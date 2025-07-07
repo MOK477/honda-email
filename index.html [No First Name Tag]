@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="only light">
-<meta name="supported-color-schemes" content="light">
+    
 
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
@@ -21,7 +20,7 @@
         padding: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           "Helvetica Neue", sans-serif;
-        background-color: #ffffff;
+        background-color: #FFFFFE;
         color: #000000;
       
       }
@@ -40,7 +39,7 @@
               transparent 12px
             );
         background-blend-mode: lighten;
-        color: #ffffff;
+        color: #fffffe;
         padding: 20px 22px;
         margin: 0 14px 24px;
         border-radius: 16px;
@@ -176,7 +175,6 @@
         width: 90px;
         height: 90px;
         margin-bottom: 3px;
-        filter: brightness(0) saturate(100%);
       }
 
       .specialty div:last-child {
@@ -271,22 +269,22 @@
 
 </style> 
   </head>
-  <body bgcolor="#ffffff" style="margin:0;padding:0;background-color:#ffffff;">
+  <body bgcolor="#fffffe" style="margin:0;padding:0;background-color:#fffffe;">
 
     <div class="container" style="padding: 0 20px">
     <!-- ========= TRUE OUTER WRAPPER (keeps width & centring everywhere) ========= -->
 <center style="width:100%;table-layout:fixed;">
   <table role="presentation" cellpadding="0" cellspacing="0" border="0"
-         width="100%" align="center" style="margin:0 auto;border-collapse:collapse;">
+         width="100%" align="center" bgcolor="#FFFFFE" style="margin:0 auto;border-collapse:collapse;">
     <tr>
       <td align="center">
         <!-- 600-px “safe width” wrapper -->
         <table role="presentation" cellpadding="0" cellspacing="0" border="0"
-               width="600" style="width:600px;border-collapse:collapse;">
+        bgcolor="#FFFFFE" width="600" style="width:600px;border-collapse:collapse;">
                <tr><td>
       <div class="logo">
         <img
-          src="https://litpluscreatives.com/wp-content/uploads/2025/06/Toronto-Honda-logo.png"
+          src="https://litpluscreatives.com/wp-content/uploads/2025/07/Toronto-Honda-logo-Boxed.png"
           alt="Toronto Honda Logo"
           style="max-width: 100%; height: auto;background:#ffffff;padding:6px;border-radius:8px;"
         />
@@ -305,10 +303,10 @@
                width="100%" style="max-width:600px;margin:0 auto;border-collapse:collapse;">
           <tr>
             <td align="left" valign="top"
-                background="https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-9.jpg"
+                background="https://litpluscreatives.com/wp-content/uploads/2025/07/Hero-image-10.jpg"
                 style="
                   border-radius:16px;overflow:hidden;
-                  background:url('https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-9.jpg')
+                  background:url('https://litpluscreatives.com/wp-content/uploads/2025/07/Hero-image-10.jpg')
                              center bottom/cover no-repeat;
                   mso-padding-alt:25px 35px 45px 25px;
                   padding:25px 35px 45px 25px;
@@ -317,14 +315,14 @@
 <!--[if gte mso 9]> <!-- Outlook fallback -->
 <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"
         style="width:600px;height:0;border-radius:16px;">
-  <v:fill src="https://litpluscreatives.com/wp-content/uploads/2025/06/Hero-image-9.jpg"
+  <v:fill src="https://litpluscreatives.com/wp-content/uploads/2025/07/Hero-image-10.jpg"
           type="frame" color="#ffffff"/>
   <v:textbox inset="0,0,0,0">
 <![endif]-->
 
               <!-- overlay copy -->
               <div style="font-family:Inter,Arial,sans-serif;
-                          line-height:1.3;color:#0a0a0a;
+                          line-height:1.3;color:#141414;
                           max-width:430px;">
                 <span class="hero-h1"
                       style="display:block;font-weight:600;font-size:24px;line-height:1.3;margin-bottom:4px;">
@@ -335,7 +333,7 @@
        style="border-radius:4px;display:inline-block;">
   <tr><td
       style="font-family:Inter,Arial,sans-serif;font-weight:700;
-             font-size:24px;line-height:1.3;color:#ffffff;
+             font-size:24px;line-height:1.3;color:#f4f4f4;
              padding:4px 12px;">
     Complete Detail&nbsp;<br>is now&nbsp;$30&nbsp;off
   </td></tr>
@@ -446,14 +444,14 @@
  <!-- ===============================================
      FEATURES (2-up → 1-up on narrow screens)
 ==================================================-->
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f9f9f9"
-style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04);padding:12px;margin:14px 10px; margin:0 auto;border-collapse:collapse;table-layout:fixed;font-size:0;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="5" bgcolor="#f9f9f9"
+style="max-width:600px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04);padding:12px;margin:14px 10px; margin:0 auto;border-collapse:collapse;table-layout:fixed;font-size:0;">
 <tr>
 <!-- Exterior wash -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Exterior-Wash-Dry-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px; background:#ffffff;border-radius:50%;padding:4px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Exterior-Wash-Dry-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Exterior wash&nbsp;and&nbsp;dry
 </span>
@@ -462,8 +460,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Windows cleaned -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Windows-Cleaned-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Windows-Cleaned-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Windows cleaned
 </span>
@@ -474,8 +472,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Interior vacuum -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Interior-Vacuum-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Interior-Vacuum-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Interior vacuum
 </span>
@@ -484,8 +482,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Carpet / trunk shampoo -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Carpet-Mat-Trunk-Shampooing.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Carpet-Mat-Trunk-Shampooing.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Deep carpet, mat&nbsp;&amp;&nbsp;trunk shampooing
 </span>
@@ -496,8 +494,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Air vents -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Air-Vents-Cleaned-Freshened-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Air-Vents-Cleaned-Freshened-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Air vents cleaned&nbsp;&amp;&nbsp;freshened
 </span>
@@ -506,8 +504,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Dash surfaces -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Dashboard-Surfaces-Protected-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Dashboard-Surfaces-Protected-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Dashboard&nbsp;&amp;&nbsp;interior surfaces protected
 </span>
@@ -518,8 +516,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Engine bay -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Engine-Bay-Cleaned-Degreased-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Engine-Bay-Cleaned-Degreased-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Engine bay deep&nbsp;clean&nbsp;&amp;&nbsp;degrease
 </span>
@@ -528,8 +526,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Tires & wheels -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Tire-Shine-Wheel-Detailing.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Tire-Shine-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Tire shine&nbsp;&amp;&nbsp;wheel detailing
 </span>
@@ -593,7 +591,7 @@ style="
   border-radius: 18px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
   padding: 12px;
-  max-width:520px;
+  max-width:600px;
   margin: 14px auto;
   text-align: left;
 "
@@ -622,7 +620,7 @@ style="
         style="
           font-weight: 500;
           margin: 14px 20px;
-          font-size: 20px;
+          font-size: 16px;
           color: #111;
           text-align: left;
         "
@@ -646,23 +644,21 @@ style="
       Limited time offer. We recommend booking now to avoid wait times.
       </div>
     </div>
+    </div>
 
    
    <!-- Section Heading aligned with image -->
 <!-- Heading aligned to testimonial box -->
-<div style="padding: 0 14px;">
-  <div style="max-width: 520px; margin: 35px auto 0px auto;">
-     <h3 style="font-size:22px;line-height:1.3;color:#00446b;">
+
+<h3 style="text-align: left;margin:20px 0 10px 12px;font-size:22px;line-height:1.3;color:#00446b;">
    What Our Clients Say
  </h3>
-   
-  </div>
-</div>
+
  
 
 
     <!-- START Testimonial Section -->
-    <div style="padding: 24px 14px; text-align: left; background: #ffffff">
+    
       
       <div
         style="
@@ -753,14 +749,14 @@ style="
        <!-- ===============================================
      “EXTRA FEATURES” (2-up + full-width row)
 ==================================================-->
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f9f9f9"
+<table role="presentation" width="100%" cellpadding="0" cellspacing="5px" bgcolor="#f9f9f9"
 style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04);padding:12px;margin:14px auto; margin:0 auto;border-collapse:collapse;table-layout:fixed;font-size:0;">
 <tr>
 <!-- Everything in Complete Detail -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Complete-Detail-Check-Icon-2.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Complete-Detail-Check-Icon-2.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Everything in&nbsp;Complete&nbsp;Detail
 </span>
@@ -769,8 +765,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Premium wax protection -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Premium-Wax-Protection-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Premium-Wax-Protection-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Premium exterior wax protection<br>(3-month shine guarantee)
 </span>
@@ -781,8 +777,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Nano-coating windshield treatment (full-width) -->
 <td class="stack-column" colspan="2" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Windshield-Nano-Coating.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Windshield-Nano-Coating.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Advanced nano-coating windshield treatment
 </span>
@@ -845,8 +841,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Windshield Nano -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Windshield-Nano-Coating.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Windshield-Nano-Coating.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Windshield&nbsp;Nano&nbsp;Coating<br>
  <strong style="font-size:14px;">$99</strong>
@@ -856,8 +852,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- All Glass Nano -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/All-Glass-Nano-Coating-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-All-Glass-Nano-Coating-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  All&nbsp;Glass&nbsp;Nano&nbsp;Coating<br>
  <strong style="font-size:14px;">$179</strong>
@@ -869,8 +865,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Salt Stain Removal -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Salt-Stain-Removal-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Salt-Stain-Removal-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Salt&nbsp;Stain&nbsp;Removal<br>
  <strong style="font-size:14px;">$149</strong>
@@ -880,8 +876,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Pet Hair Removal -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Pet-Hair-Removal-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Pet-Hair-Removal-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Pet&nbsp;Hair&nbsp;Removal<br>
  <strong style="font-size:14px;">$139</strong>
@@ -893,8 +889,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Headlight Restoration -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Headlight-Restoration-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Headlight-Restoration-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Headlight&nbsp;Restoration<br>
  <strong style="font-size:14px;">$159</strong>
@@ -904,8 +900,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Odor Elimination -->
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Odor-Elimination-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Odor-Elimination-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Odor&nbsp;Elimination<br>
  <strong style="font-size:14px;">$119</strong>
@@ -917,8 +913,8 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <!-- Liquid Rust Proofing (full-width) -->
 <td class="stack-column" colspan="2" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
-<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Liquid-Rust-Proofing-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+<img src="https://litpluscreatives.com/wp-content/uploads/2025/07/boxed-Liquid-Rust-Proofing-Icon.png"
+    width="120" height="80" style="display:block;border:0;margin:0 auto 6px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Liquid&nbsp;Rust&nbsp;Proofing<br>
  <strong style="font-size:14px;">Contact&nbsp;Us</strong>
@@ -960,13 +956,16 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
       </div>
       <!-- ← move THIS one up here! ends .addons box -->
 
-      <h3 style="font-size:22px;line-height:1.3;color:#00446b;text-align:left;margin:10px 0 10px 20px;">Need Help?</h3>
+      
+      <h3 style="text-align: left;margin:20px 0 10px 12px;font-size:22px;line-height:1.3;color:#00446b;">
+        Need help?
+      </h3>
 
-      <div style="margin: 0 20px">
+      <div style="max-width:530px;margin:12px auto;box-sizing:border-box;">
         <img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Customer-Service-Image3.jpg"
         alt="Smiling Customer Service Team"
-        width="520"
-        style="display:block;width:100%;max-width:520px;height:auto;border-radius:12px;margin:0;">
+        width="530" height="auto"
+        style="display: block;width:100%;max-width:530px;height:auto;border-radius:12px;margin:0;">
    
 
         <p
@@ -985,7 +984,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
         </p>
 
         <!-- Contact Button Block -->
-        <div style="text-align:left;margin:20px 20px 20px 20px;font-weight:500;">
+        <div style="text-align:left;margin:20px 0;font-weight:500;">
           <!-- WhatsApp -->
           <a
             href="sms:+12892101079&body=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services"
@@ -1018,8 +1017,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
         </div>
       </div>
     </div>
-    </div>
-    </div>
+    
 
  
     <div style="background: #1a1a1a15; padding: 24px 0">
