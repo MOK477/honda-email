@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Toronto Honda – Summer Detailing Offer</title>
+    <meta name="color-scheme" content="only light">
+<meta name="supported-color-schemes" content="light">
+
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -21,11 +23,7 @@
           "Helvetica Neue", sans-serif;
         background-color: #ffffff;
         color: #000000;
-      }
-      .container {
-        max-width: 600px;
-        margin: 0 auto;
-        background: #fff;
+      
       }
       .badge {
         padding: 10px;
@@ -209,12 +207,7 @@
         max-width: 500px;
         height: auto;
       }
-      .features img {
-        filter: brightness(0) saturate(100%);
-      }
-      .specialty img {
-        filter: brightness(0) saturate(100%);
-      }
+      
     </style>
     
 <style>
@@ -272,22 +265,30 @@
 }
 
 
-</style>
+
 
 </style>
 
 </style> 
- <!-- Force light mode everywhere -->
-<meta name="color-scheme" content="only light">
-<meta name="supported-color-schemes" content="light">
   </head>
   <body bgcolor="#ffffff" style="margin:0;padding:0;background-color:#ffffff;">
+
     <div class="container" style="padding: 0 20px">
+    <!-- ========= TRUE OUTER WRAPPER (keeps width & centring everywhere) ========= -->
+<center style="width:100%;table-layout:fixed;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+         width="100%" align="center" style="margin:0 auto;border-collapse:collapse;">
+    <tr>
+      <td align="center">
+        <!-- 600-px “safe width” wrapper -->
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+               width="600" style="width:600px;border-collapse:collapse;">
+               <tr><td>
       <div class="logo">
         <img
           src="https://litpluscreatives.com/wp-content/uploads/2025/06/Toronto-Honda-logo.png"
           alt="Toronto Honda Logo"
-          style="max-width: 100%; height: auto"
+          style="max-width: 100%; height: auto;background:#ffffff;padding:6px;border-radius:8px;"
         />
       </div>
     
@@ -330,12 +331,15 @@
                   Is your family tired of stepping into a dusty, dull cabin?
                 </span>
 
-                <span class="hero-badge"
-                      style="display:inline-block;background:#cc0000;color:#ffffff;
-                             font-weight:700;font-size:24px;line-height:1.3;
-                             padding:4px 12px;border-radius:4px;">
-                  Complete Detail&nbsp;<br>is now&nbsp;$30&nbsp;off
-                </span><br>
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" bgcolor="#cc0000"
+       style="border-radius:4px;display:inline-block;">
+  <tr><td
+      style="font-family:Inter,Arial,sans-serif;font-weight:700;
+             font-size:24px;line-height:1.3;color:#ffffff;
+             padding:4px 12px;">
+    Complete Detail&nbsp;<br>is now&nbsp;$30&nbsp;off
+  </td></tr>
+</table><br>
 
                 <span class="hero-h2"
                       style="display:block;font-style:italic;font-weight:600;
@@ -449,7 +453,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
 <td class="stack-column" width="50%" align="center" valign="top"
  style="padding:12px 6px;font-size:16px;line-height:1.4;">
 <img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Exterior-Wash-Dry-Icon.png"
-    width="90" height="90" style="display:block;border:0;margin:0 auto 6px;" alt="">
+    width="90" height="90" style="display:block;border:0;margin:0 auto 6px; background:#ffffff;border-radius:50%;padding:4px;" alt="">
 <span style="font-family:Inter,Arial,sans-serif;color:#000000;">
  Exterior wash&nbsp;and&nbsp;dry
 </span>
@@ -648,7 +652,10 @@ style="
 <!-- Heading aligned to testimonial box -->
 <div style="padding: 0 14px;">
   <div style="max-width: 520px; margin: 35px auto 0px auto;">
-    <h3 style="margin: 0; text-align: left;">What Our Clients Say</h3>
+     <h3 style="font-size:22px;line-height:1.3;color:#00446b;">
+   What Our Clients Say
+ </h3>
+   
   </div>
 </div>
  
@@ -720,7 +727,7 @@ style="
           padding: 12px;
         "
       >
-        <h3 style="text-align: left; margin: 20px 0 10px 12px">Why Upgrade?</h3>
+        <h3 style="font-size:22px;line-height:1.3;color:#00446b;text-align: left; margin: 20px 0 10px 12px">Why Upgrade?</h3>
         <h2
           style="
             text-align: left;
@@ -826,7 +833,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
           background: #ffffff;
         "
       >
-        <h3 style="text-align: left; margin: 20px 0 10px 12px">
+        <h3 style="font-size:22px;line-height:1.3;color:#00446b;text-align: left; margin: 20px 0 10px 12px">
           Specialty Services
         </h3>
         <!-- ===============================================
@@ -953,14 +960,14 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
       </div>
       <!-- ← move THIS one up here! ends .addons box -->
 
-      <h3 style="text-align: left; margin: 10px 0 10px 30px">Need Help?</h3>
+      <h3 style="font-size:22px;line-height:1.3;color:#00446b;text-align:left;margin:10px 0 10px 20px;">Need Help?</h3>
 
-      <div style="margin: 0 30px">
-        <img
-          src="https://litpluscreatives.com/wp-content/uploads/2025/07/Customer-Service-Image3.jpg"
-          alt="Smiling Customer Service Team"
-          style="width: 100%; border-radius: 12px; display: "
-        />
+      <div style="margin: 0 20px">
+        <img src="https://litpluscreatives.com/wp-content/uploads/2025/07/Customer-Service-Image3.jpg"
+        alt="Smiling Customer Service Team"
+        width="520"
+        style="display:block;width:100%;max-width:520px;height:auto;border-radius:12px;margin:0;">
+   
 
         <p
           style="
@@ -978,7 +985,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
         </p>
 
         <!-- Contact Button Block -->
-        <div style="text-align: left; margin: 20px 0px; font-weight: 500">
+        <div style="text-align:left;margin:20px 20px 20px 20px;font-weight:500;">
           <!-- WhatsApp -->
           <a
             href="sms:+12892101079&body=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services"
@@ -1101,5 +1108,11 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
         </p>
       </div>
     </div>
+  </table>
+</td>
+</tr>
+</table>
+</center>
+<!-- ========= / TRUE OUTER WRAPPER ========= -->
   </body>
 </html>
