@@ -548,7 +548,7 @@ style="max-width:600px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
       "
     >
       <a
-        href="sms:+12268061897&body=Hi%2C%20I%27m%20interested%20in%20the%20%2430-off%20Complete%20Detail%20package."
+        href="sms:+12268061897?body=Hi%2C%20I%27m%20interested%20in%20the%20%2430-off%20Complete%20Detail%20package."
         target="_blank"
         style="
           display: inline-block;
@@ -790,7 +790,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
         <div style="text-align: left; margin: 20px 12px; font-weight: 500">
           <!-- WhatsApp -->
           <a
-            href="sms:+12268061897&body=Hi%2C%20I%27d%20like%20to%20book%20the%20Ultimate%20Protect%20package."
+            href="sms:+12268061897?body=Hi%2C%20I%27d%20like%20to%20book%20the%20Ultimate%20Protect%20package."
             target="_blank"
             style="
               display: inline-block;
@@ -926,7 +926,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
         <div style="text-align: left; margin: 20px 12px; font-weight: 500">
           <!-- WhatsApp -->
           <a
-            href="sms:+12268061897&body=Hi%2C%20I%27d%20like%20to%20book%20a%20Specialty%20Service."
+            href="sms:+12268061897?body=Hi%2C%20I%27d%20like%20to%20book%20a%20Specialty%20Service."
             target="_blank"
             style="
               display: inline-block;
@@ -987,7 +987,7 @@ style="max-width:520px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,0.04)
         <div style="text-align:left;margin:20px 0;font-weight:500;">
           <!-- WhatsApp -->
           <a
-            href="sms:+12892101079&body=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services"
+            href="sms:+12892101079?body=Hi%2C%20I%20have%20a%20question%20about%20your%20detailing%20services"
             target="_blank"
             style="
               display: inline-block;
